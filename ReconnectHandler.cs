@@ -26,7 +26,7 @@ public class ReconnectHandler : MonoBehaviourPunCallbacks
         panel.SetActive(true);
         while (t > 0f && reconnecting)
         {
-            reconnectText.text = $"Reconnecting… {Mathf.Ceil(t)}s";
+            reconnectText.text = $"Reconnectingâ€¦ {Mathf.Ceil(t)}s";
             PhotonNetwork.ReconnectAndRejoin();
             yield return new WaitForSeconds(1f);
             t -= 1f;
