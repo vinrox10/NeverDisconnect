@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>ReconnectMod</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BepInEx" Version="5.4.17" />
+    <PackageReference Include="Photon.Pun" Version="2.48.0" />
+    <PackageReference Include="Photon.Realtime" Version="1.0.24" />
+  </ItemGroup>
+</Project>
